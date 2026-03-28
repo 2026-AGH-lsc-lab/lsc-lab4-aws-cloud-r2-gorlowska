@@ -1,4 +1,4 @@
-REPORT RequestId: 91c36c67-a04d-4913-b5c8-bbac9b9be49a	Duration: 79.65 ms	Billed Duration: 2519 ms	Memory Size: 512 MB	Max Memory Used: 142 MB	Init Duration: 2439.19 ms	
+REPORT RequestId: 91c36c67-a04d-4913-b5c8-bbac9b9be49a	Duration: 79.65 ms	Billed Duration: 2519 ms	Memory Size: 512 MB	Max Memory Used: 142 MB	Init Duration: 639.19 ms	
 XRAY TraceId: 1-69c3bfed-780ace7e7265744428c74c08	SegmentId: d4c26ff9397c6b85	Sampled: true	
 	REPORT RequestId: cef440ff-8cc6-43cf-9489-f912a35533f5	Duration: 44.17 ms	Billed Duration: 583 ms	Memory Size: 512 MB	Max Memory Used: 142 MB	Init Duration: 538.07 ms	
 XRAY TraceId: 1-69c3cbb5-7eb2556c4eec55193316107d	SegmentId: 8b1ab40f2c67ed38	Sampled: true	

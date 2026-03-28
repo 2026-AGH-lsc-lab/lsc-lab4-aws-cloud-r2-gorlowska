@@ -1,11 +1,13 @@
 --- Assignment 1: Endpoint Verification ---
 
 --- LAMBDA ZIP ---
-{"errorMessage": "'query'", "errorType": "KeyError", "requestId": "b7b0aca6-59e0-4e2e-8d57-fa7614b3e5e1", "stackTrace": ["  File \"/var/task/handler.py\", line 28, in lambda_handler\n    query = np.array(data[\"query\"], dtype=np.float32)\n"]}
+{"results": [{"index": 35859, "distance": 12.001459121704102}, {"index": 24682, "distance": 12.059946060180664}, {"index": 35397, "distance": 12.487079620361328}, {"index": 20160, "distance": 12.489519119262695}, {"index": 30454, "distance": 12.499402046203613}], "query_time_ms": 57.92, "instance_id": "2026/03/25/[$LATEST]f2309b8e7d114f2383476a162dbdd7f6", "cold_start": true}
+
 --- LAMBDA CONTAINER ---
-{"errorMessage": "'query'", "errorType": "KeyError", "requestId": "20db20a5-282f-44ea-9bd6-1bc0ed0c3528", "stackTrace": ["  File \"/var/task/handler.py\", line 28, in lambda_handler\n    query = np.array(data[\"query\"], dtype=np.float32)\n"]}
+{"results": [{"index": 35859, "distance": 12.001459121704102}, {"index": 24682, "distance": 12.059946060180664}, {"index": 35397, "distance": 12.487079620361328}, {"index": 20160, "distance": 12.489519119262695}, {"index": 30454, "distance": 12.499402046203613}], "query_time_ms": 77.745, "instance_id": "2026/03/25/[$LATEST]6bdf19d477744d8d9087a40d05a9ccb9", "cold_start": true}
+
 --- FARGATE ---
-{"instance_id":"ip-172-31-40-216.ec2.internal","query_time_ms":25.801,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
+{"instance_id":"ip-172-31-40-216.ec2.internal","query_time_ms":24.783,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
 
 --- EC2 ---
-{"instance_id":"eb16b5124a52","query_time_ms":23.109,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
+{"instance_id":"eb16b5124a52","query_time_ms":23.362,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
